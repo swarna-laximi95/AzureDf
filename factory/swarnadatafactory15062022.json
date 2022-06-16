@@ -1,0 +1,9 @@
+{
+	"name": "swarnadatafactory15062022",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "55e33504-71f1-4c2d-a799-be257fae0614",
+		"tenantId": "5ffe0650-8dd7-4491-8f58-548b5546025b"
+	}
+}
