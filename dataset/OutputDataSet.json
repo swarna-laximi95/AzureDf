@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "OutputFile/Txt_File",
+				"folderPath": "OutputFile/Json_FIle",
 				"fileSystem": "container2"
 			},
 			"columnDelimiter": ",",
