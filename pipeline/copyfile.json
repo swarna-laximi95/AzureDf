@@ -58,7 +58,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"expression": {
-									"value": "@or(contains(item().name, '.txt'),contains(item().name, '.json'))\r\n\r\n",
+									"value": "@item().name.contains('.txt')",
 									"type": "Expression"
 								},
 								"ifFalseActivities": [
