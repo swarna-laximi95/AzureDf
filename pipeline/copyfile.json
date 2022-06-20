@@ -58,7 +58,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"expression": {
-									"value": "@item().name.contains('.txt')",
+									"value": "@item().name",
 									"type": "Expression"
 								}
 							}
