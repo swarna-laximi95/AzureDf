@@ -92,10 +92,6 @@
 												"storeSettings": {
 													"type": "AzureBlobFSReadSettings",
 													"recursive": true,
-													"wildcardFileName": {
-														"value": "@activity('Get FileName').output.childItems",
-														"type": "Expression"
-													},
 													"enablePartitionDiscovery": false
 												},
 												"formatSettings": {
@@ -126,7 +122,10 @@
 										"inputs": [
 											{
 												"referenceName": "InputDataSet",
-												"type": "DatasetReference"
+												"type": "DatasetReference",
+												"parameters": {
+													"FileName": "@item().name"
+												}
 											}
 										],
 										"outputs": [
